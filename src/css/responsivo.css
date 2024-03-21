@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .container p {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: .1px;
+        margin: 0 12px;
+    }
+
+    
+    .social-icons {
+        margin: 12px;
+    }
+
+    .social-icons a{
+        width: 25px;
+        height: 25px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .container {
+        display: block;
+    }
+
+    .container span {
+        font-size: 11px;
+    }
+
+    .social-icons {
+        margin: 10px;
+        padding: 1px;    
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .container {
+        display: block;
+    }
+
+    .container span {
+        font-size: 11px;
+    }
+
+    .social-icons {
+        margin: 8px;    
+    }
+}
